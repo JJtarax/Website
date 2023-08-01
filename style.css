@@ -1,0 +1,38 @@
+img {
+  height: 10%;
+  width: 10%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+font-family: Andalé Mono;
+}
+
+body {
+text-align: center;
+background-color: burlywood;
+/*background-image: url(https://steamuserimages-a.akamaihd.net/ugc/809997459553919208/580192EFBD48D204462263A517BD48E641715C3C/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);*/
+}
+
+legend {
+margin: auto
+}
+
+form {
+margin: auto
+}
+
+legend{
+background-color: cyan;
+width: auto;
+border: 1px solid black;
+border-bottom: 0px;
+bottom: 5px;
+}
+
+fieldset{
+background-color: cyan;
+width: auto;
+padding: 20px;
+margin: 10px;
+border: 100px;
+}
