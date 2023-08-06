@@ -146,7 +146,7 @@ img {
 
 /* Welcome section */
 
-.welcome-section {
+.About {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -157,7 +157,7 @@ img {
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 
-.welcome-section > p {
+.About > p {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
