@@ -1,13 +1,29 @@
-html, body {
-    height: 100%;
-}
-
-html {
-    display: table;
-    margin: auto;
-}
 
 body {
-    display: table-cell;
-    vertical-align: middle;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+h4 {
+    text-align: center;
+    letter-spacing: 2px;
+    border: 1px solid blue;
+}
+
+a h4:hover {
+    background-color: cadetblue;
+}
+a {
+    width: min-content;
+    text-decoration: none;
+}
+
+.container {
+    position: absolute;
+    margin-top: 15%;
+    padding: 20px;
+    border: 1px solid #292929;
+    border-radius: 20px;
 }
