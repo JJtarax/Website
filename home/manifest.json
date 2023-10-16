@@ -20,16 +20,28 @@
     "orientation": "any",
     "icons": [
         {
-            "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
-            "sizes": "512x512",
+            "src": "GitHub/Website/home/logo/manifest-icon-192.maskable.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "GitHub/Website/home/logo/manifest-icon-192.maskable.png",
+            "sizes": "192x192",
             "type": "image/png",
             "purpose": "maskable"
         },
         {
-            "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
-            "sizes": "192x192",
+            "src": "GitHub/Website/home/logo/manifest-icon-512.maskable.png",
+            "sizes": "512x512",
             "type": "image/png",
             "purpose": "any"
+        },
+        {
+            "src": "GitHub/Website/home/logo/manifest-icon-512.maskable.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
         }
     ],
     "screenshots": [
