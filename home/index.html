@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="manifest" href="/manifest.json">
 
 </head>
 
@@ -34,6 +35,28 @@
         <a href="https://codepen.io/JJtarax/" target="_blank" class="project project-tile">
             <img src="https://d33wubrfki0l68.cloudfront.net/assets/8666817d946d5a219a2732a3e4f4aeb83ba9e77b/codepen-wordmark-display-inside-black@10x.png"
                 alt="Codepen" class="links-img">
+
+                <script>
+                    // This is the "Offline page" service worker
+
+                    // Add this below content to your HTML page or add the js file to your page at the very top to register service worker
+
+                    // Check compatibility for the browser we're running this in
+                    if ("serviceWorker" in navigator) {
+                        if (navigator.serviceWorker.controller) {
+                            console.log("[PWA Builder] active service worker found, no need to register");
+                        } else {
+                            // Register the service worker
+                            navigator.serviceWorker
+                                .register("sw.js", {
+                                    scope: "./"
+                                })
+                                .then(function (reg) {
+                                    console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+                                });
+                        }
+                    }
+                </script>
 </body>
 
 </html>
